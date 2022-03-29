@@ -51,7 +51,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "e:/Программирование/Алгоритмы и структуры данных/Lab1ASD/out/build/x64-Debug"
+			"value" : "d:/MKN16/Lab1ASD/out/build/x64-Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -527,7 +527,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "E:/Программирование/Алгоритмы и структуры данных/Lab1ASD"
+			"value" : "D:/MKN16/Lab1ASD"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "E:/Программирование/Алгоритмы и структуры данных/Lab1ASD/out/install/x64-Debug"
+			"value" : "D:/MKN16/Lab1ASD/out/install/x64-Debug"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -1075,7 +1075,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/Программирование/Алгоритмы и структуры данных/Lab1ASD/out/build/x64-Debug"
+			"value" : "D:/MKN16/Lab1ASD/out/build/x64-Debug"
 		},
 		{
 			"name" : "lab1-asd_IS_TOP_LEVEL",
@@ -1099,7 +1099,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/Программирование/Алгоритмы и структуры данных/Lab1ASD"
+			"value" : "D:/MKN16/Lab1ASD"
 		}
 	],
 	"kind" : "cache",

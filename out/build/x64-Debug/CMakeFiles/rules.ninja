@@ -65,7 +65,7 @@ rule CXX_EXECUTABLE_LINKER__test1_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -S"E:\Программирование\Алгоритмы и структуры данных\Lab1ASD" -B"E:\Программирование\Алгоритмы и структуры данных\Lab1ASD\out\build\x64-Debug"
+  command = "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SD:\MKN16\Lab1ASD -BD:\MKN16\Lab1ASD\out\build\x64-Debug
   description = Re-running CMake...
   generator = 1
 

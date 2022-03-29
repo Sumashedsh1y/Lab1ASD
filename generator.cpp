@@ -19,6 +19,7 @@ void Print(T someList) {
 
 int Generator::GetCount() {
 	count = res.size();
+	cout << "Count of combinations: " << count << endl;
 	return count;
 }
 
@@ -38,46 +39,40 @@ void Generator::GenerateAll() {
 	}
 	res.push_back(x);
 	Print(x);
-begin:
 	while (x.size() != 1) {
-		int vecsize = x.size();
-		vector<int> tmp;
 		int s = x.size();
 		int Z = x[s - 2] * x[s - 1];
 		int last = x[s - 1];
-		for (int r = x[s - 2] + 1; r < x[s - 1]; r++) {
+		int maxr = x[s - 1];
+		int o = -1;
+		for (int r = x[s - 2] + 1; r < maxr; r++) {
 			if (Z % r == 0 && r < last)
 			{
-				int o = r;
-				int M = Z;
-				tmp = x;
-				tmp.resize(s - 2);
-				while (M != 1)
-				{
-					if (M % o == 0 && ((o <= M / o) || (M / o == 1)))
-					{
-						tmp.push_back(o);
-						M = M / o;
-					}
-					else
-						o++;
-				}
-				res.push_back(tmp);
-				Print(tmp);
-				last = tmp[tmp.size() - 1];
+				o = r;
+				break;
 			}
-			if (tmp.size() > vecsize) {
-				x = tmp;
-				goto begin;
-			}
-			vecsize = tmp.size();
 		}
-		x.resize(s - 1);
-		x[s - 2] = Z;
+		if (o == -1) {
+			x.resize(s - 1);
+			x[s - 2] = Z;
+		} else {
+			int M = Z;
+			x.resize(s - 2);
+			while (M != 1)
+			{
+				if (M % o == 0 && ((o <= M / o) || (M / o == 1)))
+				{
+					x.push_back(o);
+					M = M / o;
+				}
+				else
+					o++;
+			}
+		}
 		res.push_back(x);
 		Print(x);
 	}
-	x.resize(0);
+	x.clear();
 }
 
 bool Generator::Recursive(int n, int i, vector<int> mas) {

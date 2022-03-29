@@ -1,8 +1,8 @@
-# Install script for directory: E:/Программирование/Алгоритмы и структуры данных/Lab1ASD
+# Install script for directory: D:/MKN16/Lab1ASD
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "E:/Программирование/Алгоритмы и структуры данных/Lab1ASD/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "D:/MKN16/Lab1ASD/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/Программирование/Алгоритмы и структуры данных/Lab1ASD/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/MKN16/Lab1ASD/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

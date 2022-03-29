@@ -727,8 +727,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "E:/Программирование/Алгоритмы и структуры данных/Lab1ASD/out/build/x64-Debug",
-		"source" : "E:/Программирование/Алгоритмы и структуры данных/Lab1ASD"
+		"build" : "D:/MKN16/Lab1ASD/out/build/x64-Debug",
+		"source" : "D:/MKN16/Lab1ASD"
 	},
 	"version" : 
 	{

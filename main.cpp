@@ -14,11 +14,11 @@ using namespace std;
 int main() {
    cout<<"10!="<<Factorial(10)<<endl;
    cout << endl;
-   Generator g(36);
+   Generator g(1250);
    g.GenerateAll();
    g.GetCount();
    cout << endl;
-   Generator q(36);
+   Generator q(1250);
    q.GenerateRec();
    q.GetCount();
    //std::vector<int> result = g.GetResult(5); // 5-я последователность

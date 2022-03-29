@@ -1,5 +1,5 @@
-E:/Программирование/Алгоритмы и структуры данных/Lab1ASD/out/build/x64-Debug/CMakeFiles/edit_cache.dir
-E:/Программирование/Алгоритмы и структуры данных/Lab1ASD/out/build/x64-Debug/CMakeFiles/main.dir
-E:/Программирование/Алгоритмы и структуры данных/Lab1ASD/out/build/x64-Debug/CMakeFiles/test1.dir
-E:/Программирование/Алгоритмы и структуры данных/Lab1ASD/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
-E:/Программирование/Алгоритмы и структуры данных/Lab1ASD/out/build/x64-Debug/CMakeFiles/test.dir
+D:/MKN16/Lab1ASD/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+D:/MKN16/Lab1ASD/out/build/x64-Debug/CMakeFiles/main.dir
+D:/MKN16/Lab1ASD/out/build/x64-Debug/CMakeFiles/test1.dir
+D:/MKN16/Lab1ASD/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+D:/MKN16/Lab1ASD/out/build/x64-Debug/CMakeFiles/test.dir
